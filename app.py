@@ -1,6 +1,10 @@
 import streamlit as st
 import google.generativeai as genai
 
+# เพิ่ม 2 บรรทัดนี้ลงไปครับ
+st.subheader("🔍 System Check")
+st.write(f"Library Version: `{genai.__version__}`")
+
 # 1. ตั้งค่าหน้าเว็บ
 st.set_page_config(page_title="AI Assistant", page_icon="🤖")
 st.title("💬 My AI Assistant")
