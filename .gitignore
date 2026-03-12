@@ -1,0 +1,14 @@
+# Python virtual environments (โฟลเดอร์เก็บ Library ที่หนักและไม่ต้องเอาขึ้น)
+venv/
+.venv/
+env/
+bin/
+lib/
+__pycache__/
+*.py[cod]
+*$py.class
+.streamlit/
+.env
+secrets.toml
+.DS_Store
+Thumbs.db
